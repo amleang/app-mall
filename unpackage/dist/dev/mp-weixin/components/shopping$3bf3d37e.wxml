@@ -1,0 +1,25 @@
+<template name="shopping$3bf3d37e">
+  <view class="_view data-v-6835dcc3 seller-list">
+    <view class="_view data-v-6835dcc3 seller-item">
+      <view class="_view data-v-6835dcc3 seller">
+        <label class="_label data-v-6835dcc3 radio">
+          <radio value="check" class="_radio data-v-6835dcc3" />
+        </label>
+        <view class="_view data-v-6835dcc3 logo">
+          <image src="http://p02jejryx.bkt.clouddn.com/69c76fa2419a4c099c774a248a0c7a31.jpg" mode="aspectFill" class="_image data-v-6835dcc3"></image>
+        </view>
+        <view class="_view data-v-6835dcc3"> Test001小店 </view>
+      </view>
+      <view class="_view data-v-6835dcc3 product-list">
+        <view class="_view data-v-6835dcc3 product-item">
+          <label class="_label data-v-6835dcc3 radio">
+            <radio value="check" class="_radio data-v-6835dcc3" />
+          </label>
+          <image src="https://img-cdn-qiniu.dcloud.net.cn/uploads/example/product1.jpg" mode="aspectFill" class="_image data-v-6835dcc3"></image>
+          <view class="_view data-v-6835dcc3 name"> 张胜男佛那单佛大赛你佛搜到你发圣诞 </view>
+          <view class="_view data-v-6835dcc3 num"> x1 </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

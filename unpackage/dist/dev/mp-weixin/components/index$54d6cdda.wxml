@@ -1,0 +1,13 @@
+<template name="index$54d6cdda">
+  <view class="_view data-v-64a1acf0 main">
+    <view class="_view data-v-64a1acf0 head">
+      <view class="_view data-v-64a1acf0 head-img">
+        <image src="{{userinfo.avatarUrl}}" mode class="_image data-v-64a1acf0"></image>
+        <view class="_view data-v-64a1acf0 username"> {{userinfo.nickName}} </view>
+      </view>
+      <view class="_view data-v-64a1acf0 head-btn">
+        <view class="_view data-v-64a1acf0 btn" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"> 更新资料 </view>
+      </view>
+    </view>
+  </view>
+</template>

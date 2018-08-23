@@ -1,0 +1,31 @@
+<import src="product$556e366e" />
+<template name="index$057ff1a7">
+  <view class="_view data-v-13014915 index">
+    <scroll-view class="_scroll-view data-v-13014915 index-bd" scroll-y>
+      <scroll-view id="tab-bar" class="_scroll-view data-v-13014915 swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+        <block wx:key="tab.id" key="{{tab.id}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="tab">
+          <view id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" class="_view data-v-13014915 {{['swiper-tab-list', currentTab == index ? 'on' : '']}}">{{tab.name}}</view>
+        </block>
+      </scroll-view>
+      <view class="_view data-v-13014915 search"> 搜索 </view>
+      <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}" style="height:35%;" class="_swiper data-v-13014915">
+        <swiper-item class="_swiper-item data-v-13014915">
+          <view class="_view data-v-13014915 swiper-item">
+            <image src="http://img.anlyzhao.com/3188799691524b4d99754b989ff075bb.jpg" mode="aspectFill" style="width:100%;height:100%;" class="_image data-v-13014915"></image>
+          </view>
+        </swiper-item>
+        <swiper-item class="_swiper-item data-v-13014915">
+          <view class="_view data-v-13014915 swiper-item">
+            <image src="http://img.anlyzhao.com/74f833d766ac445aaef60e6c5b9e0dfe.jpg" mode="aspectFill" style="width:100%;height:100%;" class="_image data-v-13014915"></image>
+          </view>
+        </swiper-item>
+        <swiper-item class="_swiper-item data-v-13014915">
+          <view class="_view data-v-13014915 swiper-item">文本</view>
+        </swiper-item>
+      </swiper>
+      <view class="_view data-v-13014915 product-list">
+        <template data="{{...$root[$kk+'3'], $root}}" is="product$556e366e"></template>
+      </view>
+    </scroll-view>
+  </view>
+</template>

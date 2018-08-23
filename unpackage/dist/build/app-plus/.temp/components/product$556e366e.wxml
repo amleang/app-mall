@@ -1,0 +1,3 @@
+<template name="product$556e366e"><view class="_view data-v-94a3c238 product"><block wx:key="index" key="{{index}}" wx:for="{{productData}}" wx:for-index="index" wx:for-item="item"><view class="_view data-v-94a3c238 product-item {{index % 2 == 0 ? 'product-one' : 'product-two'}}"><image class="_image data-v-94a3c238 img" src="{{item.image}}"></image> <view class="_view data-v-94a3c238 product-name">
+				{{item.title}}
+			</view></view></block></view></template>
